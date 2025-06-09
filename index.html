@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+  <script src="script.js" defer></script>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-content">
+      <h1>Hi, I'm [Your Name]</h1>
+      <p>Welcome to my personal portfolio website.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>[Brief description about your background, skills, and goals.]</p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-items">
+      <!-- Example portfolio item -->
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1" />
+        <h3>Project Title</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+  <button id="backToTop" title="Back to top">↑ Top</button>
+
+</body>
+  
+</html>
